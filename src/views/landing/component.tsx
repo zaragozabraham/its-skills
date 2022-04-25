@@ -1,15 +1,16 @@
-import { Box, Button, Typography } from '@mui/material'
+import { Box, Button, Toolbar, Typography } from '@mui/material'
 import { Styles } from '../../theme/types';
+import '../style.css';
 
 const LandingPage = () => {
+  const purple = '#958be3';
 
   const styles: Styles = {
     mainContainer: {
       display: "flex",
       margin: "0 auto",
-      marginTop: "2rem",
-      maxWidth: "90vw",
-      gap: "1rem",
+      height: '100vh',
+      width: '100vw',
     },
     buttonContainer: {
       display: 'flex',
@@ -17,31 +18,40 @@ const LandingPage = () => {
     },
     imageContainer: {
       flex: '1',
-      display: { xs: 'none', md: 'flex' }
+      display: { xs: 'none', md: 'flex' },
+      marginLeft: '2.3rem',
+      position: 'relative',
+      height: '100vh',
+      width: '70vw',
     },
     dataContainer: {
-      flex: '2',
+      flex: '1',
       display: "flex",
       flexDirection: "column",
       justifyContent: 'center',
-      alignItems: 'self-start'
+      alignItems: { xs: 'center', md: 'self-start'},
+      marginLeft: "1rem",
     },
     conButton: {
-      backgroundColor: '#958be3',
+      backgroundColor: purple,
       marginRight: '1vw'
     },
     outButton: {
-      borderColor: '#958be3',
-      color: '#958be3'
+      borderColor: purple,
+      color: purple
     }
   };
 
   return (
-      <Box justifyContent={"center"} sx={styles.mainContainer}>
+    <Box>
+    <Toolbar />
+      <Box justifyContent='center' sx={styles.mainContainer}>
         <Box sx={styles.imageContainer}>
           <img
+            className="img"
             src={require('../../assets/images/trabajando.jpg')}
             loading="lazy"
+            alt='Coding'
           />
         </Box>
         <Box sx={styles.dataContainer}>
@@ -53,6 +63,7 @@ const LandingPage = () => {
           </Box>
         </Box>
       </Box>
+    </Box>
   )
 }
 

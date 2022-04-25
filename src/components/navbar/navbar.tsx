@@ -4,16 +4,15 @@ import {
     Menu, MenuItem, Toolbar,
     Tooltip, Typography
 } from '@mui/material';
-import React, { useMemo } from 'react';
+import React from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
-import { Styles } from '../../theme/types';
 import { useNavigate } from 'react-router-dom';
 
 const pages = [
-    { label: 'Carrera', path: '/' },
+    { label: 'Carrera', path: '/career' },
     { label: 'Materias', path: '/subjects' },
-    { label: 'Opiniones', path: '/' },
-    { label: 'Acerca', path: '/' }
+    { label: 'Opiniones', path: '/opinions' },
+    { label: 'Acerca', path: '/about' }
 ];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
@@ -38,27 +37,20 @@ const CustomNavbar = () => {
         setAnchorElUser(null);
     };
 
-    const styles: Styles = useMemo(
-        () => ({
-            appbarContainer: {
-                background: "#002333",
-            },
-        }),
-        []
-    );
-
     return (
-        <AppBar position="fixed" sx={{backgroundColor: '#002333',  zIndex: (theme) => theme.zIndex.drawer + 1 }}>
+        <AppBar position="fixed" sx={{ backgroundColor: '#002333', zIndex: (theme) => theme.zIndex.drawer + 1 }}>
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
-                    <Typography
-                        variant="h6"
-                        noWrap
-                        component="div"
-                        sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
-                    >
-                        ITS SKILLS
-                    </Typography>
+                    <Button variant='text' color='inherit' onClick={() => navigate('/')} sx={{ display: { xs: 'none', md: 'flex' } }}>
+                        <Typography
+                            variant="h6"
+                            noWrap
+                            component="div"
+                            sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
+                        >
+                            ITS SKILLS
+                        </Typography>
+                    </Button>
 
                     <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
                         <IconButton
@@ -96,15 +88,16 @@ const CustomNavbar = () => {
                             ))}
                         </Menu>
                     </Box>
-                    
-                    <Typography
-                        variant="h6"
-                        noWrap
-                        component="div"
-                        sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
-                    >
-                        ITS SKILLS
-                    </Typography>
+                    <Button variant='text' color='inherit' onClick={() => navigate('/')} sx={{ display: { xs: 'flex', md: 'none' } }}>
+                        <Typography
+                            variant="h6"
+                            noWrap
+                            component="div"
+                            sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
+                        >
+                            ITS SKILLS
+                        </Typography>
+                    </Button>
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                         {pages.map((page, index) => (
                             <Button
