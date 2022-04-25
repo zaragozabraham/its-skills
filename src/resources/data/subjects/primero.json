@@ -1,0 +1,33 @@
+[
+    {
+        "title": "Algebra",
+        "description": "En esta unidad de aprendizaje en una primera fase analizaremos los números complejos, su representación gráfica así como sus transformaciones lo cual nos permita realizar operaciones con los mismos, con lo que podremos en la fase dos analizar las funciones polinomiales determinando los ceros de las mismas, posteriormente en la siguiente fase haremos uso de matrices y determinantes para sistemas de ecuaciones lineales en la resolución de problemas, terminaremos con determinar las características de un vector mediante el análisis de información para modelos físicos y geométricos.",
+        "objectives": [
+            "Determinar las características de un vector y efectuar operaciones mediante un análisis de información.",
+            "Analizar el comportamiento grafico de funciones polinomiales.",
+            "Analizar números complejos mediante su definición, transformación, representación gráfica.",
+            "Analizar sistemas de ecuaciones lineales para resolver problemas mediante el uso de matrices y determinantes."
+        ],
+        "resources": [
+            "Concrete Mathematics",
+            "Linear Algebra: A Modern Introduction",
+            "Contemporary abstract algebra"
+        ]
+    },
+    {
+        "title": "Calculo Diferencial",
+        "description": "Esta unidad de aprendizaje consta de dos fases, la primera se refiere al análisis de funciones de una variable y la segunda al análisis de funciones de varias variables, en ambas fases se involucra el cálculo de límites para determinar su continuidad y concluir en el concepto de derivación lo que le permitirá al estudiante aplicar los criterios de la derivada en la solución de problemas de ingeniería.",
+        "objectives": [
+            "Aplicar las reglas de derivación en funciones mediante el concepto de derivada parcial.",
+            "Aplicar el concepto de derivada como razón de cambio e interpretarlo geométricamente.",
+            "Comprobar resultados mediante un software de graficación.",
+            "Analizar funciones de varias variables mediante el cálculo del límite.",
+            "Resolver problemas de optimización y problemas de ingeniería."
+        ],
+        "resources": [
+            "Advanced Engineering Mathematics",
+            "Linear Algebra: A Modern Introduction",
+            "All the Mathematics that you missed: but need to know for graduate school"
+        ]
+    }
+]

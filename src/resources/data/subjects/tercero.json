@@ -1,0 +1,17 @@
+[{
+    "title": "Topicos Selectos de Programacion",
+    "description": "La unidad de aprendizaje de Tópicos Selectos de Programación está diseñado para orientar a los estudiantes en el entendimiento de los principales elementos teórico prácticos de las tecnologías para el desarrollo de aplicaciones web, manejará diversas herramientas para el desarrollo de aplicaciones web como: Diseño de páginas, Protocolos TCP/IP, Lenguaje XML y Uso De Java Script.",
+    "objectives": [
+        "Determinar el uso de algunos lenguajes de programación.",
+        "Analizar los diferentes protocolos mediante herramientas de comunicación.",
+        "Realizar proyectos individuales y por equipo.",
+        "Utilizar las herramientas necesarias mediante su aplicación eficiente.",
+        "Aplicar XML mediante el acceso a una base de datos para guardar y obtener información."
+    ],
+    "resources": [
+        "Learning Web Design: A Beginners Guide to HTML, CSS, JavaScript, and Web Graphics",
+        "The Algorithm Design Manual",
+        "What Every Web Developer Should Know About HTTP",
+        "Node.js the Right Way: Practical, Server-Side JavaScript that Scales"
+    ]
+}]

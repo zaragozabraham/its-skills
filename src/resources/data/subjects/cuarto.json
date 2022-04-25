@@ -1,0 +1,36 @@
+[
+    {
+        "title": "Arquitectura de Computadoras",
+        "description": "Esta unida de aprendizaje contribuye a identificar los elementos internos y externos de una computadora clásica desde su origen hasta la tecnología actual así como el funcionamiento de los mismos a través de su estructura que le permitirá posteriormente solucionar problemas de configuración del hardware del equipo de cómputo. Por lo que esta unidad de aprendizaje le permite al estudiante desarrollar competencias que contribuyen al perfil del ingeniero y a una mejor integración del mismo a su entorno profesional.",
+        "objectives": [
+            "Identificar los fundamentos de las computadoras.",
+            "Identificar la arquitectura de las computadoras.",
+            "Distinguir la importancia de las acciones de seguridad que se deben tomar en un centro de cómputo.",
+            "Distinguir las arquitecturas de las computadoras paralelas a la clásica.",
+            "Identificar componentes y modelos de ejecución."
+        ],
+        "resources": [
+            "Computer Organization and Design",
+            "Database Systems",
+            "The Elements of Computing Systems: Building a Modern Computer from First Principles",
+            "How Computers Work: Processor And Main Memory"
+        ]
+    },
+    {
+        "title": "PROGRAMACIÓN ORIENTADA A OBJETOS",
+        "description": "Esta unidad de aprendizaje contribuye a que el estudiante aprenda metodologías y herramientas que le ayuden en el proceso de su proyecto de programación Orientado a Objetos tales como conocimientos en casos prácticos y que conozca las tendencias y nuevas tecnologías de software y dónde pueda aplicarlas. Por lo que esta unidad de aprendizaje le permite al estudiante desarrollar competencias que contribuyen al perfil del ingeniero y a una mejor integración del mismo a su entorno profesional.",
+        "objectives": [
+            "Identificar las variables utilizadas en el proyecto mediante la realización de un diccionario de datos.",
+            "Realizar un pseudocódigo de algunas o todas las partes de la base de datos del proyecto.",
+            "Realizar en equipo un proyecto del tema asignado.",
+            "Diseñar las pantallas de entradas y salidas.",
+            "Determinar los requerimientos necesarios mediante un diseño de diagrama.",
+            "Identificar los tipos de prototipo."
+        ],
+        "resources": [
+            "Design Patterns: Elements of Reusable Object-Oriented Software",
+            "Database Systems",
+            "A First Course in Database Systems"
+        ]
+    }
+]

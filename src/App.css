@@ -1,8 +1,8 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -22,10 +22,6 @@
   font-size: calc(10px + 2vmin);
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
-}
-
 @keyframes App-logo-float {
   0% {
     transform: translateY(0);
@@ -36,4 +32,4 @@
   100% {
     transform: translateY(0px);
   }
-}
+} */

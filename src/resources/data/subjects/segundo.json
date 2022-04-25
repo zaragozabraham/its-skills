@@ -1,0 +1,40 @@
+[
+    {
+        "title": "Algoritmos Computacionales",
+        "description": "En esta unidad de aprendizaje se practican las diferentes estructuras de datos, para la realización de diferentes algoritmos, utilizando pseudocódigo y diagramas de flujo simples. Esta unidad de aprendizaje se divide en 5 etapas: Etapa I un panorama general de las estructuras de datos realizando algoritmos simples. Etapa II identificación de las tecinas para la realización del análisis y diseño de algoritmos. Etapa III se involucra el diseño para la resolución de problemas recursivos. Etapa IV conoceremos los diferentes tipos de ordenamientos y búsqueda de datos. Etapa V realizaremos toma de decisiones haciendo uso de las estructuras no lineales.",
+        "objectives": [
+            "Identificar las técnicas fundamentales de análisis y diseño de algoritmos.",
+            "Formular y desarrollar algoritmos simples usando pseudocódigo o diagramas de flujo.",
+            "Utilizar las herramientas computacionales graficas que permitan depurar errores de lógica.",
+            "Desarrollar por equipo soluciones de ordenamiento de datos.",
+            "Diseñar e implementar soluciones a problemas del entorno mediante algoritmos recursivos.",
+            "Implementar algoritmos para problemas de búsqueda y recorrido."
+        ],
+        "resources": [
+            "Introduction to Algorithms",
+            "The Algorithm Design Manual",
+            "The Art of Computer Programming",
+            "An Introduction to the Analysis of Algorithms",
+            "Computational Complexity"
+        ]
+    },
+    {
+        "title": "Programacion Estructurada",
+        "description": "Esta unidad de aprendizaje contribuye a identificar los elementos básicos necesarios para la solución de problemas representando el mismo a través de un diagrama de flujo, para traducirlo a un lenguaje de programación estructurada que posteriormente podrá utilizar en la solución de problemas complejos haciendo uso de programación con objetos. Por lo que esta unidad de aprendizaje le permite al estudiante desarrollar competencias que contribuyen al perfil del ingeniero y a una mejor integración del mismo a su entorno profesional.",
+        "objectives": [
+            "Representar la solución de un problema usando programación estructurada.",
+            " Identificar elementos fundamentales de programación estructurada en un lenguaje icónico.",
+            "Utilizar elementos de un lenguaje computacional.",
+            "Codificar algoritmos y/o diagramas de flujo en un lenguaje de programación.",
+            "Diseñar algoritmos y/o diagramas de flujo que solucionen un problema.",
+            "Aplicar las técnicas de programación modular mediante procedimientos, funciones y macros.",
+            "Manipular estructuras de almacenamiento de datos con arreglos, punteros, estructuras de uniones y archivos."
+        ],
+        "resources": [
+            "The C programming lannguage",
+            "The Pragmatic Programmer: From Journeyman to Master",
+            "Clean Code: A Handbook for Agile Software Craftsmanship",
+            "The Clean Coder: A Code of Conduct for Professional Programmers"
+        ]
+    }
+]
