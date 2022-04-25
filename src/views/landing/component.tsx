@@ -1,9 +1,12 @@
 import { Box, Button, Toolbar, Typography } from '@mui/material'
+import { useNavigate } from 'react-router-dom';
 import { Styles } from '../../theme/types';
 import '../style.css';
 
 const LandingPage = () => {
   const purple = '#958be3';
+
+  const navigate = useNavigate();
 
   const styles: Styles = {
     mainContainer: {
@@ -58,8 +61,8 @@ const LandingPage = () => {
           <Typography variant='h2' color='#00e677' fontWeight='bold' >ITS SKILLS</Typography>
           <Typography variant='h6'>Un sitio de apoyo al estudiante</Typography>
           <Box sx={styles.buttonContainer}>
-            <Button variant='contained' sx={styles.conButton}>Red de Materias</Button>
-            <Button variant='outlined' sx={styles.outButton}>¿Qué es ITS?</Button>
+            <Button variant='contained' sx={styles.conButton} onClick={() => navigate('/subjects')} >Red de Materias</Button>
+            <Button variant='outlined' sx={styles.outButton} onClick={() => navigate('/career')} >¿Qué es ITS?</Button>
           </Box>
         </Box>
       </Box>
