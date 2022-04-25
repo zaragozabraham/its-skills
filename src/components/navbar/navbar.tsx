@@ -98,12 +98,12 @@ const CustomNavbar = () => {
                             ITS SKILLS
                         </Typography>
                     </Button>
-                    <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+                    <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'center' }}>
                         {pages.map((page, index) => (
                             <Button
                                 key={index}
                                 onClick={() => navigate(page.path)}
-                                sx={{ my: 2, color: 'white', display: 'block' }}
+                                sx={{ my: 2, color: 'white', display: 'flex' }}
                             >
                                 {page.label}
                             </Button>
