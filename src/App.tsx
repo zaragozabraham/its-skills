@@ -12,7 +12,7 @@ import Login from './views/login/component';
 function App() {
   return (
     <>
-      <Box sx={{ display: 'flex', height: '100vh', overflow: 'hidden', padding: '20px' }}>
+      <Box sx={{ display: 'flex', height: '100vh', overflow: 'hidden' }}>
         <CustomNavbar />
         <Routes>
           <Route path="/" element={<LandingPage />} />
