@@ -7,14 +7,16 @@ import { Box } from '@mui/material';
 import CareerPage from './views/career/component';
 import AboutPage from './views/about/component';
 import OpinionsPage from './views/opinions/component';
+import Login from './views/login/component';
 
 function App() {
   return (
     <>
-      <Box sx={{ display: 'flex' }}>
+      <Box sx={{ display: 'flex', height: '100vh', overflow: 'hidden', padding: '20px' }}>
         <CustomNavbar />
         <Routes>
           <Route path="/" element={<LandingPage />} />
+          <Route path="/login" element={<Login />} />
           <Route path="/subjects" element={<SubjectPage />} />
           <Route path="/career" element={<CareerPage />} />
           <Route path="/about" element={<AboutPage />} />
