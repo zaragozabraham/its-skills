@@ -1,30 +1,30 @@
 [
-    {
-        "title": "Topicos Selectos de Ciencias de la Ingenieria II",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a dui enim. Fusce non leo id neque finibus congue. Sed id velit et tellus rhoncus viverra. Vestibulum hendrerit libero odio, sagittis maximus magna cursus vel. Sed quis eros lacinia, porttitor mauris a, molestie nisl. Donec cursus tristique ligula. Integer viverra a lorem nec rutrum.",
-        "objectives": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        ],
-        "resources": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        ]
-    },
-    {
-        "title": "Topicos Selectos de Ciencias de la Ingenieria III",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a dui enim. Fusce non leo id neque finibus congue. Sed id velit et tellus rhoncus viverra. Vestibulum hendrerit libero odio, sagittis maximus magna cursus vel. Sed quis eros lacinia, porttitor mauris a, molestie nisl. Donec cursus tristique ligula. Integer viverra a lorem nec rutrum.",
-        "objectives": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        ],
-        "resources": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        ]
-    }
+  {
+    "title": "Topicos Selectos de Ciencias de la Ingenieria II",
+    "description": "En esta unidad de aprendizaje el estudiante será capaz de identificar patrones de información en pistas de audio mediante técnicas de barrido de series , en la primer fase se analizara la estructura de las pistas de audio, en la segunda fase aplicara técnicas para reconocer patrones en audio y en la tercera fase aprenderá técnicas para el procesamiento y manejo de datos de audio a escala mayor.",
+    "objectives": [
+      "Identificar los elementos esenciales de una pista de audio mediante acústica aplicada.",
+      "Analizar la aplicación de técnicas de barrido de audio mediante sus características particulares.",
+      "Identificar el modo adecuado para procesar datos de audio a gran escala."
+    ],
+    "resources": [
+      "Elements Of Information Theory",
+      "Algorithms On Strings, Trees And Sequences",
+      "A Student's Guide To Coding And Information Theory"
+    ]
+  },
+  {
+    "title": "Topicos Selectos de Ciencias de la Ingenieria III",
+    "description": "En esta unidad de aprendizaje el estudiante será capaz de identificar patrones de información mediante técnicas de minería de datos, en la primer fase conocerá como se trabaja con logs de información y construirá redes de información para los procesos analizados, en la segunda fase aplicara técnicas de minería de datos que le permitan identificar patrones de información y en la tercera fase aprenderá técnicas para el procesamiento y manejo de datos.",
+    "objectives": [
+      "Identificar los elementos utilizados para construir diagramas de proceso.",
+      "Analizar la aplicación de técnicas de minería de datos mediante el uso de herramientas para minería de procesos.",
+      "Analizar la estructura de los datos de proceso mediante técnicas establecidas."
+    ],
+    "resources": [
+      "Elements Of Information Theory",
+      "Algorithms On Strings, Trees And Sequences",
+      "A Student's Guide To Coding And Information Theory"
+    ]
+  }
 ]

@@ -23,6 +23,6 @@ export const loginUser = (values: LoginDTO) => {
         email: values.email,
         password: sha512(values.password)
     };
-    console.log(user);
-    // store.dispatch(fetchLogin(user));
+    // console.log(user);
+    store.dispatch(fetchLogin(user));
 }

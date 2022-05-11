@@ -1,30 +1,36 @@
 [
-    {
-        "title": "Sistemas Distribuidos y Paralelos",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a dui enim. Fusce non leo id neque finibus congue. Sed id velit et tellus rhoncus viverra. Vestibulum hendrerit libero odio, sagittis maximus magna cursus vel. Sed quis eros lacinia, porttitor mauris a, molestie nisl. Donec cursus tristique ligula. Integer viverra a lorem nec rutrum.",
-        "objectives": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        ],
-        "resources": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        ]
-    },
-    {
-        "title": "Temas Selectos de Software y Calidad",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a dui enim. Fusce non leo id neque finibus congue. Sed id velit et tellus rhoncus viverra. Vestibulum hendrerit libero odio, sagittis maximus magna cursus vel. Sed quis eros lacinia, porttitor mauris a, molestie nisl. Donec cursus tristique ligula. Integer viverra a lorem nec rutrum.",
-        "objectives": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        ],
-        "resources": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        ]
-    }
+  {
+    "title": "Sistemas Distribuidos y Paralelos",
+    "description": "En esta unidad de aprendizaje se tratarán las técnicas que permiten la ingeniería de dispositivos móviles para el desarrollo del software adecuado en el problema que se le presente, con lo cual se le permite al estudiante tener una mejor integración con su entorno profesional, consta de 3 etapas en las cuales se le proporcionarán al estudiante los conocimientos y competencias necesarias para su desarrollo, en la primera y segunda etapa se diseñará, implementará y se llegará a evaluar los sistemas multiprocesadores con aplicaciones al supercómputo científico y financiero, en la tercera etapa se diseñará e implementará y evaluarán sistemas distribuidos que operan sobre múltiples unidades físicamente separadas con conexiones no confiables en llevar a cabo cómputo confiable y eficiente para aplicaciones industriales, científicas y del hogar.",
+    "objectives": [
+      "Diseñar sistemas paralelos eficientes y correctos, usando simultáneamente múltiples núcleos.",
+      "Implementar las aplicaciones industriales, científicos y hogareños.",
+      "Diseñar sistemas distribuidos eficientes, robustos y correctos mediante la recolección de datos.",
+      "Implementar la configuración de sistemas de cómputo para realizar aplicaciones en la ciencia e industria."
+    ],
+    "resources": [
+      "An Introduction To Parallel Programming",
+      "Programming Distributed Computing Systems: A Foundational Approach",
+      "Distributed Algorithms: An Intuitive Approach",
+      "Introduction To High Performance Computing For Scientists And Engineers",
+      "The CUDA Handbook: A Comprehensive Guide To GPU Programming"
+    ]
+  },
+  {
+    "title": "Temas Selectos de Software y Calidad",
+    "description": "Esta unidad de aprendizaje es de suma trascendencia para el programa educativo ya que en ella se desarrollarán las competencias de calidad que ayudarán en la formación del perfil del egresado, se contribuirá en el desarrollo del estudiante haciéndolo competente en una parte del marco de trabajo de la Ingeniería del Software, reconociéndola como una metodología de calidad. En la Primera etapa el estudiante desarrollará la competencia para de establecer su propio Formato de Estándares de Código (Coding Standard Template) lo cual le permitirá medir el Tamaño del Software que realiza y conocerá la relación que existe entre con Tiempo que se invierte en crearlo y el Esfuerzo que es necesario aplicar para crearlo, indicadores que le permitirán hacer estimaciones de Costo. En la Segunda etapa el estudiante desarrollará la competencia para Estimar y registrar el tiempo total que se invertirá en completar en las subfases del Desarrollo del Producto así como registrar y clasificar los defectos detectados en el Producto según su tipo. En la Tercera Etapa el estudiante desarrollará la competencia para Estimar el Tamaño del Producto que se va a desarrollar y registrar las Propuestas de Mejora del Proceso (Process Improvement Proposal) y el Reporte de Pruebas (Test Report). En la cuarta etapa el estudiante desarrollará la competencia para Incrementar su productividad y la calidad del producto desarrollado mediante las revisiones del Diseño del Programa y del Código, la creación del Plan de Tareas y Seguimiento Proyecto (Task and Schedule Plan) que pueda tener un mejor control del proyecto.",
+    "objectives": [
+      "Diseñar estándares de codificación usando el Formato de Estándares de Código.",
+      "Diseñar la documentación que especifica los requerimientos de un programa.",
+      "Analizar el tamaño del producto que se va a desarrollar y registrarlo en la bitácora.",
+      "Determinar la productividad al desarrollar un software de calidad del producto."
+    ],
+    "resources": [
+      "Software Testing: Essential Skills For First Time Testers",
+      "Software Quality: State Of The Art In Management, Testing, And Tools",
+      "Software Testing & Quality Assurance: From Traditional To Cloud Computing",
+      "Continous Integration: Improving Software Quality And Reducing Risk",
+      "Agile Testing: A Practical Guide For Testers And Agile Teams"
+    ]
+  }
 ]

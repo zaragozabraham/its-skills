@@ -1,6 +1,5 @@
-import { Box, Collapse, Divider, Drawer, List, ListItem, ListItemButton, ListItemIcon, ListItemText, Toolbar } from '@mui/material'
-import React, { useEffect, useState } from 'react'
-import { Styles } from '../../theme/types';
+import { Box, Collapse, Divider, Drawer, List, ListItemButton, ListItemText, Toolbar } from '@mui/material'
+import { useEffect, useState } from 'react';
 import primero from '../../resources/data/subjects/primero.json';
 import segundo from '../../resources/data/subjects/segundo.json';
 import tercero from '../../resources/data/subjects/tercero.json';
@@ -10,11 +9,15 @@ import sexto from '../../resources/data/subjects/sexto.json';
 import septimo from '../../resources/data/subjects/septimo.json';
 import octavo from '../../resources/data/subjects/octavo.json';
 import { ExpandLess, ExpandMore } from '@mui/icons-material';
+import { useAppSelector } from '../../app/hooks';
+import { setSelectedSubject, subjectSelector, subjectsSelector } from '../../features/subjectSlice';
+import { useDispatch } from 'react-redux';
+import { Subject } from '../../../../backend/src/models/subject';
 
 
 const drawerWidth = 200;
 
-const semesters = [
+const subjects = [
   { id: 1, tab: 'Primer Semestre', data: primero, key: 10 },
   { id: 2, tab: 'Segundo Semestre', data: segundo, key: 20 },
   { id: 3, tab: 'Tercero Semestre', data: tercero, key: 30 },
@@ -26,22 +29,32 @@ const semesters = [
 ]
 
 const SideDrawer = () => {
+  const dispatch = useDispatch();
+  const subjects = useAppSelector(subjectsSelector);
+  const subject = useAppSelector(subjectSelector);
+
   const [open, setOpen] = useState<any>({});
-  const [openTab, setOpenTab] = useState<number>(0);
+
+
 
   const handleClick = (index: number) => {
     let id = index + 1;
     setOpen((prevState: any) => ({ ...prevState, [id]: !prevState[id] }));
   };
 
+  const setSubject = (subject: Subject) => {
+    dispatch(setSelectedSubject(subject));
+  }
+
   useEffect(() => {
-  }, [open, openTab])
+    console.log(subject);
+  }, [subject])
 
 
   return (
     <Drawer
       variant="permanent"
-      PaperProps={{ sx: { backgroundColor: '#002333', color: '#fff' } }}
+      PaperProps={{ sx: { backgroundColor: '#212f44', color: '#fff' } }}
       sx={{
         width: drawerWidth,
         flexShrink: 0,
@@ -51,23 +64,12 @@ const SideDrawer = () => {
       <Toolbar />
       <Box sx={{ overflow: 'auto' }}>
         <List>
-          {semesters.map((semester, index) => (
+          {subjects.map((subject, index) => (
             <>
-              <ListItemButton onClick={() => handleClick(index)} key={`${semester.key}${index}`}>
-                <ListItemText primary={semester.tab} />
-                {open ? <ExpandLess /> : <ExpandMore />}
+              <ListItemButton onClick={() => setSubject(subject)} key={`${subject.id}-${index}`}>
+                <ListItemText primary={subject.title} />
               </ListItemButton>
-              <Collapse in={open[semester.id]} timeout="auto" unmountOnExit>
-                <List disablePadding>
-                  {
-                  semester.data.map((item,index) => (
-                    <ListItemButton sx={{ pl: 4 }} key={`${index}${semester.key}`} onClick={() => console.log(`${index}${semester.key}`)}>
-                      <ListItemText primary={item.title}/>
-                    </ListItemButton>
-                  ))
-                  }
-                </List>
-              </Collapse>
+              <Divider sx={{backgroundColor: 'white'}}/>
             </>
           ))}
         </List>
@@ -77,3 +79,40 @@ const SideDrawer = () => {
 }
 
 export default SideDrawer
+
+// return (
+//   <Drawer
+//     variant="permanent"
+//     PaperProps={{ sx: { backgroundColor: '#002333', color: '#fff' } }}
+//     sx={{
+//       width: drawerWidth,
+//       flexShrink: 0,
+//       [`& .MuiDrawer-paper`]: { width: drawerWidth, boxSizing: 'border-box' },
+//     }}
+//   >
+//     <Toolbar />
+//     <Box sx={{ overflow: 'auto' }}>
+//       <List>
+//         {subjects.map((subject, index) => (
+//           <>
+//             <ListItemButton onClick={() => handleClick(index)} key={`${subject.key}${index}`}>
+//               <ListItemText primary={subject.tab} />
+//               {open ? <ExpandLess /> : <ExpandMore />}
+//             </ListItemButton>
+//             <Collapse in={open[subject.id]} timeout="auto" unmountOnExit>
+//               <List disablePadding>
+//                 {
+//                 subject.data.map((item,index) => (
+//                   <ListItemButton sx={{ pl: 4 }} key={`${index}${subject.key}`} onClick={() => console.log(`${index}${subject.key}`)}>
+//                     <ListItemText primary={item.title}/>
+//                   </ListItemButton>
+//                 ))
+//                 }
+//               </List>
+//             </Collapse>
+//           </>
+//         ))}
+//       </List>
+//     </Box>
+//   </Drawer>
+// )

@@ -1,34 +1,34 @@
 [
-    {
-        "title": "Optimizacion",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a dui enim. Fusce non leo id neque finibus congue. Sed id velit et tellus rhoncus viverra. Vestibulum hendrerit libero odio, sagittis maximus magna cursus vel. Sed quis eros lacinia, porttitor mauris a, molestie nisl. Donec cursus tristique ligula. Integer viverra a lorem nec rutrum.",
-        "objectives": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        ],
-        "resources": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        ]
-    },
-    {
-        "title": "Programacion de Sistemas Adaptativos",
-        "description": "Esta unidad de aprendizaje se divide en 4 fases en las cuales se tratará lo siguiente, una primera fase en la cual se analizará de manera general los diferentes tipos de algoritmos adaptativos que existen con sus respectivas técnicas y así poder desarrollar un sistema adaptativo que se adecue a su entrono de manera apropiada, en la segunda fase analizaremos los sistemas complejos para poder llegar a obtener el conocimiento de recrear de manera efectiva nuestro sistema adaptativo, posteriormente en una tercera fase conoceremos las diferentes características que se desenvuelven en los sistemas inteligentes así como sus técnicas de desarrollo, para discernir cual es la más factible de aplicar en un sistema adaptativo y finalmente en la cuarta fase conoceremos los diferentes tipos de sistemas multiagentes así como su desarrollo y lograr aplicar el más adecuado en un sistema adaptativo.",
-        "objectives": [
-            "Diseñar redes complejas y autómatas celulares, sistemas no lineales y analizar la teoría de caos.",
-            "Analizar las técnicas de ajuste y autoajuste paramétrico.",
-            "Analizar agentes inteligentes y reactivos, comunicación y cooperación, algoritmos genéticos y colonias de hormigas.",
-            "Desarrollar redes neuronales artificiales.",
-            "Identificar soluciones a problemas de tipo búsqueda, planeación en lógica computacional, lógica difusa y sistemas basados en reglas."
-        ],
-        "resources": [
-            "Signals and Boundaries: Building Blocks for Complex Adaptive Systems",
-            "An Introduction to Genetic Algorithms",
-            "Hot To Solve It: A New Aspect of Mathematical Method",
-            "Adaptation in Natural and Artificial Systems: An Introductory Analysis with Applications to Biology, Control, and Artificial Intelligence",
-            "Complexity: A Very Short Introduction"
-        ]
-    }
+  {
+    "title": "Optimizacion",
+    "description": "Esta unidad de aprendizaje se divide en cuatro fases, en la primera fase se modelan problemas de programación lineal, en la segunda fase se utilizan el método gráfico y Simplex para resolver problemas de programación lineal, en la tercera se analizan sistemas de transporte y en la cuarta fase se problemas de programación entera y por último, en la quinta fase se evalúan casos prácticos.",
+    "objectives": [
+      "Analizar problemas de optimización mediante el desarrollo de su modelo.",
+      "Analizar problemas de programación lineal mediante el método gráfico y el método Simplex.",
+      "Analizar sistemas de transporte mediante técnicas de aproximación.",
+      "Analizar problemas de programación lineal entera mediante el método de ramas y cotas."
+    ],
+    "resources": [
+      "A First Course In Optimization Theory",
+      "Optimization Concepts And Applications In Engineering"
+    ]
+  },
+  {
+    "title": "Programacion de Sistemas Adaptativos",
+    "description": "Esta unidad de aprendizaje se divide en 4 fases en las cuales se tratará lo siguiente, una primera fase en la cual se analizará de manera general los diferentes tipos de algoritmos adaptativos que existen con sus respectivas técnicas y así poder desarrollar un sistema adaptativo que se adecue a su entrono de manera apropiada, en la segunda fase analizaremos los sistemas complejos para poder llegar a obtener el conocimiento de recrear de manera efectiva nuestro sistema adaptativo, posteriormente en una tercera fase conoceremos las diferentes características que se desenvuelven en los sistemas inteligentes así como sus técnicas de desarrollo, para discernir cual es la más factible de aplicar en un sistema adaptativo y finalmente en la cuarta fase conoceremos los diferentes tipos de sistemas multiagentes así como su desarrollo y lograr aplicar el más adecuado en un sistema adaptativo.",
+    "objectives": [
+      "Diseñar redes complejas y autómatas celulares, sistemas no lineales y analizar la teoría de caos.",
+      "Analizar las técnicas de ajuste y autoajuste paramétrico.",
+      "Analizar agentes inteligentes y reactivos, comunicación y cooperación, algoritmos genéticos y colonias de hormigas.",
+      "Desarrollar redes neuronales artificiales.",
+      "Identificar soluciones a problemas de tipo búsqueda, planeación en lógica computacional, lógica difusa y sistemas basados en reglas."
+    ],
+    "resources": [
+      "Signals and Boundaries: Building Blocks for Complex Adaptive Systems",
+      "An Introduction to Genetic Algorithms",
+      "Hot To Solve It: A New Aspect of Mathematical Method",
+      "Adaptation in Natural and Artificial Systems: An Introductory Analysis with Applications to Biology, Control, and Artificial Intelligence",
+      "Complexity: A Very Short Introduction"
+    ]
+  }
 ]

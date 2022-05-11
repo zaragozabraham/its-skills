@@ -1,16 +1,18 @@
 [
-    {
-        "title": "Controladores y Microcontroladores programables",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a dui enim. Fusce non leo id neque finibus congue. Sed id velit et tellus rhoncus viverra. Vestibulum hendrerit libero odio, sagittis maximus magna cursus vel. Sed quis eros lacinia, porttitor mauris a, molestie nisl. Donec cursus tristique ligula. Integer viverra a lorem nec rutrum.",
-        "objectives": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        ],
-        "resources": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        ]
-    }
+  {
+    "title": "Controladores y Microcontroladores programables",
+    "description": "La unidad de aprendizaje de Controladores y Microcontroladores programables se divide en cuatro etapas. La primera etapa se tratará la introducción a los Microcontroladores y microprocesadores. En la segunda etapa se estudiará las memorias, puertos E/S, operadores y comandos. En la tercera etapa se analizarán las variables, constantes y símbolos. Por último la cuarta etapa se centra en las interrupciones. En esta unidad de aprendizaje el estudiante podrá diferenciar los controladores y Microcontroladores programables en base a sus características así como identificar el más adecuado que nos permita realizar circuitos útiles sin necesidad de conocer la complejidad de la circuitería interna, podrá diferenciar los tipos de soluciones para ser utilizados en modelos para análisis y diseño de sistemas, estos conocimientos le permitirán en la siguiente fase identificar los conceptos básicos de ecuaciones y argumentar su importancia en la solución de problemas. Finalmente se establecerá el comportamiento de los controladores y Microcontroladores programables para relacionarlo con la espontaneidad de las ecuaciones y utilizarlos junto con una computadora digital pues forman las bases para la simulación e implementación de algoritmos, produciendo una herramienta muy deseable, tanto en práctica como en teoría.",
+    "objectives": [
+      "Definir los microcontroladores y microprocesadores.",
+      "Analizar varias memorias, puertos E/S, operadores, comandos realizando sus correspondientes cálculos.",
+      "Definir los microcontroladores y microprocesadores para desarrollo electrónico.",
+      "Describir las variables, constantes y símbolos.",
+      "Identificar las interrupciones según sus características principales."
+    ],
+    "resources": [
+      "PIC Microcontroller Projects In C: Basic To Advanced",
+      "Designing Embedded Systems With PIC Microcontrollers: Principles And Applications",
+      "Professional Embedded ARM Development"
+    ]
+  }
 ]

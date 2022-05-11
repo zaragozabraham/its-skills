@@ -1,9 +1,19 @@
 import { Box, Button, Toolbar, Typography } from '@mui/material'
+import { useEffect } from 'react';
+import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
+import { fetchSubjects } from '../../services/subject';
 import { Styles } from '../../theme/types';
 import '../style.css';
 
 const LandingPage = () => {
+  
+  const dispatch = useDispatch();
+  
+  useEffect(() => {
+    dispatch(fetchSubjects());
+  }, [dispatch]);
+
   const purple = '#958be3';
 
   const navigate = useNavigate();
@@ -32,7 +42,7 @@ const LandingPage = () => {
       display: "flex",
       flexDirection: "column",
       justifyContent: 'center',
-      alignItems: { xs: 'center', md: 'self-start'},
+      alignItems: { xs: 'center', md: 'self-start' },
       marginLeft: "1rem",
     },
     conButton: {
@@ -47,7 +57,7 @@ const LandingPage = () => {
 
   return (
     <Box>
-    <Toolbar />
+      <Toolbar />
       <Box justifyContent='center' sx={styles.mainContainer}>
         <Box sx={styles.imageContainer}>
           <img
