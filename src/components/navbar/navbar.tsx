@@ -7,6 +7,10 @@ import {
 import React from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
 import { useNavigate } from 'react-router-dom';
+import { useAppSelector } from '../../app/hooks';
+import { loggedSelector, logout } from '../../features/authSlice';
+import { useDispatch } from 'react-redux';
+import { store } from '../../app/store';
 
 const pages = [
     { label: 'Carrera', path: '/career' },
@@ -14,11 +18,14 @@ const pages = [
     { label: 'Opiniones', path: '/opinions' },
     { label: 'Acerca', path: '/about' }
 ];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+const settings = [{label: 'Logout', path: '/'}];
 
 const CustomNavbar = () => {
     const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
     const [anchorElUser, setAnchorElUser] = React.useState<null | HTMLElement>(null);
+
+    const isLogged = useAppSelector(loggedSelector);
+    const dispatch = useDispatch();
 
     const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>) => {
         setAnchorElNav(event.currentTarget);
@@ -36,6 +43,11 @@ const CustomNavbar = () => {
     const handleCloseUserMenu = () => {
         setAnchorElUser(null);
     };
+
+    const handleLogout = async () => {
+        handleCloseNavMenu();
+        await store.dispatch(logout(''));
+    }
 
     return (
         <AppBar position="fixed" sx={{ backgroundColor: '#002333', zIndex: (theme) => theme.zIndex.drawer + 1 }}>
@@ -109,8 +121,10 @@ const CustomNavbar = () => {
                             </Button>
                         ))}
                     </Box>
-
-                    <Box sx={{ flexGrow: 0 }}>
+                    <Button variant='text' sx={{ display: isLogged ? 'none' : 'box' }}
+                        onClick={() => navigate('/login')}
+                    > iniciar sesion</Button>
+                    <Box sx={{ flexGrow: 0, display: isLogged ? 'box' : 'none' }}>
                         <Tooltip title="Open settings">
                             <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                                 <Avatar alt="User Image" src="" />
@@ -132,9 +146,9 @@ const CustomNavbar = () => {
                             open={Boolean(anchorElUser)}
                             onClose={handleCloseUserMenu}
                         >
-                            {settings.map((setting) => (
-                                <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                                    <Typography textAlign="center">{setting}</Typography>
+                            {settings.map((setting, index) => (
+                                <MenuItem key={setting.label} onClick={handleLogout}>
+                                    <Typography textAlign="center">{setting.label}</Typography>
                                 </MenuItem>
                             ))}
                         </Menu>

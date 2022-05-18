@@ -1,6 +1,6 @@
 import { RootState } from './../app/store';
 import { createSlice } from "@reduxjs/toolkit";
-import { Subject } from '../../../backend/src/models/subject';
+import { Subject } from '../models/subject';
 
 export interface SubjectsState {
   subjects: Subject[];
